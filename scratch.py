@@ -1,2 +1,7 @@
-foo = 'abcdefg'
-print(foo[1:])
+import time
+
+foo = True
+bar = None
+
+if foo and bar:
+    print('yes')
