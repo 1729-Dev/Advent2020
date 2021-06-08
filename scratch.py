@@ -1,3 +1,5 @@
-foo = (1, 2)
-foo[0] = 9
-print(foo)
+try:
+    assert 'foo' < 'foo', 'on no'
+    print('phew')
+except Exception as e:
+    print(e)
